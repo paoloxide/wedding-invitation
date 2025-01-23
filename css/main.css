@@ -13555,8 +13555,8 @@ body.offcanvas {
 }
 
 .display-tc h1, .display-tc .h1,
-.display-tc h2,
-.display-tc .h2 {
+.display-tc h2, .display-tc .h2,
+.display-tc h4, .display-tc .h4 {
   margin: 0;
   padding: 0;
   color: white;
@@ -13564,10 +13564,19 @@ body.offcanvas {
 .display-tc h1, .display-tc .h1 {
   margin-bottom: 20px;
   line-height: 1.3;
-  font-family: "Amatic SC", cursive;
+  /* font-family: "Amatic SC", cursive; */
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 50px;
 }
+
+.display-tc h4, .display-tc .h4 {
+  margin-bottom: 20px;
+  line-height: 1.3;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+}
+
 @media (min-width: 768px) {
   .display-tc h1, .display-tc .h1 {
     font-size: 150px;
