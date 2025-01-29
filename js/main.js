@@ -79,8 +79,8 @@
                                 .find('.col-sm-6')
                                 .append(
                                     '<span class="help-block">' +
-                                        data.errors.name +
-                                        '</span>'
+                                    data.errors.name +
+                                    '</span>'
                                 );
                         }
                         if (data.errors.email) {
@@ -89,16 +89,16 @@
                                 .find('.col-sm-6')
                                 .append(
                                     '<span class="help-block">' +
-                                        data.errors.email +
-                                        '</span>'
+                                    data.errors.email +
+                                    '</span>'
                                 );
                         }
                     } else {
                         // display success message
                         $form.html(
                             '<div class="message-success">' +
-                                data.message +
-                                '</div>'
+                            data.message +
+                            '</div>'
                         );
                     }
                 })
@@ -259,7 +259,7 @@
             var timeinterval = setInterval(updateClock, 1000);
         }
         // set your wedding date here
-        var deadline = 'November 28 2023 17:30:00 GMT+0300';
+        var deadline = 'March 15 2025 12:00:00 UTC+0800';
         if (countdown) {
             initializeClock('timer', deadline);
         }

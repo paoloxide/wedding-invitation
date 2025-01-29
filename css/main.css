@@ -13582,6 +13582,13 @@ body.offcanvas {
     font-size: 150px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 912px) {
+  .display-tc h1, .display-tc .h1 {
+    font-size: 80px;
+  }
+}
+
 .display-tc h2, .display-tc .h2 {
   font-size: 16px;
   line-height: 1.5;
@@ -13881,7 +13888,7 @@ img {
 }
 @media (min-width: 768px) {
   .desc-groom {
-    padding-right: 180px;
+    padding-right: 220px;
     text-align: right;
   }
 }
@@ -13891,7 +13898,7 @@ img {
 }
 @media (min-width: 768px) {
   .desc-bride {
-    padding-left: 180px;
+    padding-left: 220px;
     text-align: left;
   }
 }
@@ -14747,5 +14754,44 @@ img {
   text-decoration: none;
   color: #000;
 }
+
+.ceremony {
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.5) */
+}
+
+@media (min-width: 768px) and (max-width: 912px) {
+  .ceremony {
+    /* Your styles for viewport widths between 768px and 912px */
+    border-right: 0px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5)
+  }
+}
+
+.wedding-date {
+  font-size: 42px
+}
+
+.br-responsive {
+  display: none
+}
+
+img.label-responsive {
+  margin-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 500px) {
+  .label-responsive {
+    margin-top: 20px;
+  }
+}
+
+
+/* @media (min-width: 320x) and (max-width: 910px) {
+  .wedding-date {
+    font-size: 35px;
+    color: white;
+  }
+} */
 
 /*# sourceMappingURL=main.css.map */
