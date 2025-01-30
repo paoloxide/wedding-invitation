@@ -14041,11 +14041,11 @@ img {
 }
 .timeline::before {
   content: " ";
-  top: 50px;
+  top: 65px;
   bottom: 0;
   position: absolute;
   width: 1px;
-  height: 65%;
+  height: 70%;
   background-color: #ccc;
   left: 30px;
 }
