@@ -13947,7 +13947,7 @@ img {
 .timer .timer-item_text {
   color: #fff;
   font-family: "Great Vibes", cursive;
-  font-size: 34px;
+  font-size: 54px;
 }
 .timer .timer-item {
   /* coutndown blocks */
@@ -13966,7 +13966,7 @@ img {
   color: #fff;
 }
 .timer .timer-item .digit {
-  font-size: 47px;
+  font-size: 57px;
   line-height: 40px;
 }
 .timer .timer-item .smalltext {
@@ -14000,7 +14000,8 @@ img {
   padding: 10px 15px;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  background-color: #e9e9e9;
+  background-color: rgba(255, 255, 255, 1);
+  /* #e9e9e9 */
 }
 .events-accordion .panel-heading + .panel-collapse > .panel-body {
   padding: 0 15px 5px;
@@ -14019,10 +14020,12 @@ img {
   width: 100%;
   text-decoration: none;
   color: #333;
+  transition: all ease-in-out 0.3s;
 }
 .events-accordion .panel-title > a:hover, .events-accordion .panel-title > a[aria-expanded=true] {
   color: #000;
   font-weight: 600;
+  transition: all ease-in-out 0.3s;
 }
 .events-accordion .panel-default {
   -webkit-box-shadow: none;
@@ -14045,7 +14048,7 @@ img {
   bottom: 0;
   position: absolute;
   width: 1px;
-  height: 70%;
+  height: 75%;
   background-color: #ccc;
   left: 30px;
 }
@@ -14069,12 +14072,22 @@ img {
 }
 .timeline-badge img {
   border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 1);
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
+
 @media (min-width: 576px) {
   .timeline-badge {
     width: 160px;
     height: 160px;
     margin-left: 0;
+  }
+
+  .timeline-badge img {
+    width: 100%;
+    height: 100%;
   }
 }
 .timeline-panel {
@@ -14379,7 +14392,7 @@ img {
 /* Counter */
 .counter {
   text-align: center;
-  background-image: url("../images/counter-bg.jpg");
+  background-image: url("../gallery/wedding-bg-2.jpg");
   height: auto;
 }
 .counter-value {
@@ -14793,5 +14806,25 @@ img.label-responsive {
     color: white;
   }
 } */
+
+.faq-animation {
+  background-color: rgba(0, 0, 0, 0); 
+  border: 1px solid #650f45;
+  transition: all ease-in-out 0.5s;
+}
+
+.faq-animation:hover {
+  transition: all ease-in-out 0.5s;
+  background-color: #650f45;
+  color: rgba(255, 255, 255, 1);
+}
+
+.faq-animation > h4 > a {
+  text-decoration: none;
+}
+
+.faq-animation > h4 > a:hover {
+  color: rgba(255, 255, 255, 1);
+}
 
 /*# sourceMappingURL=main.css.map */
