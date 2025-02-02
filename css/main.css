@@ -13886,6 +13886,16 @@ img {
 .desc-groom {
   text-align: center;
 }
+
+.desc-groom-title, .desc-bride-title {
+  color: rgb(175, 136, 88); 
+  font-family: 'EB Garamond', serif; 
+  font-weight: 400; 
+  font-style: italic; 
+  letter-spacing: 2.3px; 
+  font-size: 20px;
+}
+
 @media (min-width: 768px) {
   .desc-groom {
     padding-right: 220px;
@@ -14004,7 +14014,9 @@ img {
   /* #e9e9e9 */
 }
 .events-accordion .panel-heading + .panel-collapse > .panel-body {
-  padding: 0 15px 5px;
+  padding: 5px 15px 5px;
+  font-weight: 400;
+  background: rgba(255, 255, 255, 0.4);
 }
 .events-accordion .panel + .panel {
   margin-top: 5px;
@@ -14021,6 +14033,8 @@ img {
   text-decoration: none;
   color: #333;
   transition: all ease-in-out 0.3s;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
 }
 .events-accordion .panel-title > a:hover, .events-accordion .panel-title > a[aria-expanded=true] {
   color: #000;
@@ -14033,6 +14047,7 @@ img {
 }
 .events-accordion .panel-place {
   padding: 5px 15px 0;
+  font-weight: 400;
 }
 
 /* Timeline */
@@ -14152,6 +14167,9 @@ img {
 .timeline-title {
   margin-top: 0;
   font-size: 24px;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }
 .timeline-body > p,
 .timeline-body > ul {
@@ -14392,15 +14410,17 @@ img {
 /* Counter */
 .counter {
   text-align: center;
-  background-image: url("../gallery/wedding-bg-2.jpg");
+  background-image: url("../gallery/bg-flower.png");
   height: auto;
 }
 .counter-value {
   font-size: 50px;
   line-height: 1;
   color: #fff;
-  font-weight: 100;
+  font-weight: 400;
   display: block;
+  font-family: 'EB Garamond', serif;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .counter-label {
   margin-bottom: 0;
@@ -14408,6 +14428,7 @@ img {
   color: #fff;
   font-family: "Great Vibes", cursive;
   font-size: 30px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 @media (min-width: 768px) {
   .counter .row {
@@ -14462,12 +14483,12 @@ img {
 .testimonials .testimony-slide figure {
   margin-bottom: 10px;
   display: inline-block;
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
 }
 .testimonials .testimony-slide figure img {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
 }
 .testimonials .testimony-slide blockquote {
@@ -14483,8 +14504,9 @@ img {
   }
 }
 .testimonials .testimony-slide blockquote p {
-  font-style: italic;
-  color: #8f989f;
+  font-family: 'IM Fell DW Pica', serif;
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
   font-size: 20px;
   line-height: 1.6em;
 }
@@ -14825,6 +14847,36 @@ img.label-responsive {
 
 .faq-animation > h4 > a:hover {
   color: rgba(255, 255, 255, 1);
+}
+
+
+.faq-heading-title > h4 {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.faq-heading-title > .faq-heading-title-icon {
+  margin-right: 5px;
+}
+
+@media (max-width: 932px) {
+  .faq-heading > h2 {
+    font-size: 40px;
+    font-family: "Great Vibes", cursive;
+  }
+
+  .faq-heading-title > .faq-heading-title-icon {
+    text-align: center;
+    vertical-align: top;
+    margin-right: 15px;
+    height: inherit;
+    width: 10%;
+    font-size: 30px;
+  }
+
+  .faq-heading-title > .faq-heading-title-text {
+    width: 80%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

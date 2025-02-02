@@ -16,7 +16,7 @@
 
         <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=IM+Fell+DW+Pica:ital@0;1&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" type="text/css" href="css/vendor/lightbox.min.css">
 
@@ -30,7 +30,11 @@
 
         <link rel="stylesheet" type="text/css" href="css/vendor/motion.min.css">
 
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        
         <link rel="stylesheet" type="text/css" href="css/main.css">
+
+        <link rel="stylesheet" type="text/css" href="css/modal.css">
     </head>
 
     <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
@@ -190,7 +194,7 @@
                             </div>
 
                             <div class="desc-groom">
-                                <p style="color: rgb(175, 136, 88); font-family: 'EB Garamond', serif; font-weight: 400; font-style: italic; letter-spacing: 2.3px; font-size: 19px;">The Groom</p>
+                                <p class="desc-groom-title">The Groom</p>
                                 
                                 <h3 style="font-family: 'Antic Didone', serif; font-weight: 400; letter-spacing: 2.3px;">JASON LAMBOJON</h3>
 
@@ -210,7 +214,7 @@
                             </div>
 
                             <div class="desc-bride">
-                                <p style="color: rgb(175, 136, 88); font-family: 'EB Garamond', serif; font-weight: 400; font-style: italic; letter-spacing: 2.3px; font-size: 19px;">The Bride</p>
+                                <p class="desc-bride-title">The Bride</p>
                                 
                                 <h3 style="font-family: 'Antic Didone', serif; font-weight: 400; letter-spacing: 2.3px;">MANILYN MADRID</h3>
 
@@ -341,6 +345,7 @@
                     </div>
 
                     <div class="row">
+                        <!-- accordion photo group -->
                         <div class="col-12 col-md-6">
                             <div class="accordion-img panel-group" id="accordion-img">
                                 <div class="panel panel-default">
@@ -375,8 +380,9 @@
                             </div>
                         </div>
 
+                        <!-- accordion text group -->
                         <div class="col-12 col-md-6">
-                            <h3 style="font-family: 'Lato', serif; font-weight: 500">March 15, 2025 <br /> Quezon City, Philippines <br /></h3>
+                            <h3 style="font-family: 'EB Garamond', serif; font-weight: 500; padding-bottom: 10px;">March 15, 2025 <br /> Quezon City, Philippines <br /></h3>
 
                             <div class="panel-group" id="accordion">
                                 <div class="panel panel-default">
@@ -388,7 +394,7 @@
 
                                     <div id="collapse1" class="panel-collapse collapse show" data-bs-parent="#events">
                                         <div class="panel-place">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <i class="fa fa-map-marker" aria-hidden="true" style="padding-right: 5px;"></i>
 
                                             <span>40 Lantana, Cubao</span>
                                         </div>
@@ -408,7 +414,7 @@
 
                                     <div id="collapse2" class="panel-collapse collapse" data-bs-parent="#events">
                                         <div class="panel-place">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <i class="fa fa-map-marker" aria-hidden="true" style="padding-right: 5px;"></i>
 
                                             <span>40 Lantana, Cubao</span>
                                         </div>
@@ -428,9 +434,9 @@
 
                                     <div id="collapse3" class="panel-collapse collapse" data-bs-parent="#events">
                                         <div class="panel-place">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <i class="fa fa-map-marker" aria-hidden="true" style="padding-right: 5px;"></i>
 
-                                            <span>1008 Quezon Ave Diliman</span>
+                                            <span>1008 Quezon Avenue, Diliman</span>
                                         </div>
 
                                         <div class="panel-body">
@@ -448,9 +454,9 @@
 
                                     <div id="collapse4" class="panel-collapse collapse" data-bs-parent="#events">
                                         <div class="panel-place">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <i class="fa fa-map-marker" aria-hidden="true" style="padding-right: 5px;"></i>
 
-                                            <span>1008 Quezon Ave Diliman</span>
+                                            <span>1008 Quezon Avenue, Diliman</span>
                                         </div>
 
                                         <div class="panel-body">
@@ -468,9 +474,9 @@
 
                                     <div id="collapse5" class="panel-collapse collapse" data-bs-parent="#events">
                                         <div class="panel-place">
-                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <i class="fa fa-map-marker" aria-hidden="true" style="padding-right: 5px;"></i>
 
-                                            <span>1008 Quezon Ave Diliman</span>
+                                            <span>1008 Quezon Avenue, Diliman</span>
                                         </div>
 
                                         <div class="panel-body">
@@ -493,7 +499,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-12 text-center heading" style="padding-top: 20px; margin-top: 20px; border-bottom: 1px solid rgb(175, 136, 88)">
+                        <div class="col-12 text-center heading faq-heading" style="padding-top: 20px; margin-top: 20px; border-bottom: 1px solid rgb(175, 136, 88)">
                             <img width="310" height="152" sizes="(max-width: 843px) 100vw, 843px" src="gallery/flower-2.png">
                             <h2>Frequently Asked Questions</h2>
                         </div>
@@ -503,9 +509,12 @@
 
                             <div class="panel-group" id="accordion">
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"> <!-- faq-animation -->
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse51"><i class="fa-solid fa-plug-circle-xmark" style="margin-right: 5px;"></i> What is an Unplugged Wedding?</a>
+                                    <div class="panel-heading faq-heading-title"> <!-- faq-animation -->
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-plug-circle-xmark"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text"">
+                                            <a data-bs-toggle="collapse" href="#collapse51"> What is an Unplugged Wedding?</a>
                                         </h4>
                                     </div>
 
@@ -525,9 +534,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"> <!-- faq-animation -->
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse52"><i class="fa-solid fa-bookmark" style="margin-right: 5px;"></i> Is RSVP needed?</a>
+                                    <div class="panel-heading faq-heading-title"> <!-- faq-animation -->
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-bookmark"></i>
+                                        </h4>  
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse52"> Is RSVP needed?</a>
                                         </h4>
                                     </div>
 
@@ -547,9 +559,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading"> <!-- faq-animation -->
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse53"><i class="fa-solid fa-calendar-days" style="margin-right: 5px;"></i> When and where is the wedding?</a>
+                                    <div class="panel-heading faq-heading-title"> <!-- faq-animation -->
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse53"> When and where is the wedding?</a>
                                         </h4>
                                     </div>
 
@@ -569,9 +584,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse54"><i class="fa-solid fa-car" style="margin-right: 5px;"></i> Is there available parking space?</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-car"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse54"> Is there available parking space?</a>
                                         </h4>
                                     </div>
 
@@ -589,9 +607,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse55"><i class="fa-solid fa-face-grin-beam-sweat" style="margin-right: 5px;"></i> I previously responded "NO" to RSVP</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-people-arrows"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse55"> I previously responded "NO" to RSVP</a>
                                         </h4>
                                     </div>
 
@@ -610,9 +631,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse56"><i class="fa-solid fa-face-frown" style="margin-right: 5px;"></i> I said "YES" to RSVP but I cannot attend</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-face-frown"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse56"> I said "YES" to RSVP but I cannot attend</a>
                                         </h4>
                                     </div>
 
@@ -628,9 +652,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse57"><i class="fa-solid fa-person-running" style="margin-right: 5px;"></i> When is the appropriate time to leave?</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-person-running"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse57"> When is the appropriate time to leave?</a>
                                         </h4>
                                     </div>
 
@@ -646,9 +673,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse58"><i class="fa-solid fa-children" style="margin-right: 5px;"></i> Can I bring my kids?</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-children"></i>
+                                        </h4> 
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse58"> Can I bring my kids?</a>
                                         </h4>
                                     </div>
 
@@ -664,9 +694,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse59"><i class="fa-solid fa-person-circle-plus" style="margin-right: 5px;"></i> May I invite a plus one to the event?</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-person-circle-plus"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse59"> May I invite a plus one to the event?</a>
                                         </h4>
                                     </div>
 
@@ -685,9 +718,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse60"><i class="fa-solid fa-map-location-dot" style="margin-right: 5px;"></i> How far is the Church from the Reception?</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-map-location-dot"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse60"> How far is the Church from the Reception?</a>
                                         </h4>
                                     </div>
 
@@ -703,9 +739,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse61"><i class="fa-solid fa-couch" style="margin-right: 5px;"></i> Can I sit anywhere at the reception?</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-couch"></i>
+                                        </h4> 
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse61"> Can I sit anywhere at the reception?</a>
                                         </h4>
                                     </div>
 
@@ -721,9 +760,12 @@
                                 </div>
 
                                 <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-                                            <a data-bs-toggle="collapse" href="#collapse62"><i class="fa-solid fa-gift" style="margin-right: 5px;"></i> How can I help the couple?</a>
+                                    <div class="panel-heading faq-heading-title">
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-gift"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse62"> How can I help the couple?</a>
                                         </h4>
                                     </div>
 
@@ -773,8 +815,7 @@
                             <h2 style="color: rgba(255, 255, 255, 1)">Our story</h2>
 
                             <p>
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam
+                                These are the moments that we have shared together. We have been through a lot of ups and downs, but we have always been there for each other.
                             </p>
                         </div>
                     </div>
@@ -784,7 +825,7 @@
                             <ul class="timeline">
                                 <li class="timeline-item animate-box animation">
                                     <div class="timeline-badge" >
-                                        <img src="gallery/1_bfgf.jpg" alt="">
+                                        <img class="modal-img" src="gallery/1_bfgf.jpg" alt="">
                                     </div>
 
                                     <div class="timeline-panel">
@@ -806,7 +847,7 @@
 
                                 <li class="timeline-item animate-box animation">
                                     <div class="timeline-badge">
-                                        <img src="gallery/2_firstanniv.jpg" alt="">
+                                        <img class="modal-img" src="gallery/2_firstanniv.jpg" alt="">
                                     </div>
 
                                     <div class="timeline-panel">
@@ -828,7 +869,7 @@
 
                                 <li class="timeline-item animate-box animation">
                                     <div class="timeline-badge">
-                                        <img src="gallery/3_civilwed.jpg" alt="" style="object-position: top;">
+                                        <img class="modal-img" src="gallery/3_civilwed.jpg" alt="" style="object-position: top;">
                                     </div>
 
                                     <div class="timeline-panel">
@@ -850,7 +891,7 @@
 
                                 <li class="timeline-item animate-box animation">
                                     <div class="timeline-badge">
-                                        <img src="gallery/4_together.jpg" alt="" style="object-position: top;">
+                                        <img class="modal-img" src="gallery/4_together.jpg" alt="" style="object-position: top;">
                                     </div>
 
                                     <div class="timeline-panel">
@@ -1032,8 +1073,7 @@
                                 <h2>Friends wishes</h2>
 
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                                    We are so grateful to have friends who have been with us through thick and thin. Here are some of the best wishes from our friends.
                                 </p>
                             </div>
                         </div>
@@ -1045,10 +1085,10 @@
                                         <div class="item">
                                             <div class="testimony-slide active text-center">
                                                 <figure>
-                                                    <img src="images/friend-1.jpg" alt="user">
+                                                    <!-- <img src="gallery/bf-1.jpeg" alt="user"> -->
                                                 </figure>
 
-                                                <span>Andrew Brewer</span>
+                                                <span>Navi</span>
 
                                                 <blockquote>
                                                     <p>
@@ -1111,8 +1151,7 @@
                             <h2 style="color: white">Video invitation</h2>
 
                             <p style="color: white">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam
+                                We are so excited to share this special day with you. Here is our video invitation.
                             </p>
                         </div>
                     </div>
@@ -1262,6 +1301,13 @@
             </section>
         </div>
 
+        <!-- The Modal -->
+        <div id="modal-body" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modal-content-id">
+            <div id="caption"></div>
+        </div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
         <script src="js/libs/bootstrap.bundle.min.js"></script>
@@ -1288,5 +1334,28 @@
                 audio.play().catch(error => console.log("Autoplay blocked:", error));
             });
         </script>
+
+    <script>
+        // Modal for Our Story
+
+        $('.modal-img').click(function(){
+            var src = $(this).attr('src');
+            var alt = $(this).attr('alt');
+            $('#modal-content-id').attr('src', src);
+            $('#caption').html(alt);
+            $('#modal-body').show();
+            $('#navbar').hide();
+        });
+
+        $('.close').click(function(){
+            $('#modal-body').hide();
+            $('#navbar').show();
+        });
+
+        $('#modal-body').click(function(){
+            $('#modal-body').hide();
+            $('#navbar').show();
+        });
+    </script>
     </body>
 </html>

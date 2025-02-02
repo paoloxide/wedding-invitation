@@ -1,7 +1,7 @@
 <?php
 // Configure your number Prefix and Recipient here
 $numberPrefix = '[Contact via website]';
-$emailTo = 'your-email@gmail.com';			// change to your email
+$emailTo = 'paololambojon@gmail.com';			// change to your email
 $errors = array();							// array to hold validation errors
 $data = array();							// array to pass back data
 if($_SERVER['REQUEST_METHOD'] === 'POST') {
