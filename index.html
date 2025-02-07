@@ -33,6 +33,10 @@
         <link rel="stylesheet" type="text/css" href="css/main.css">
 
         <link rel="stylesheet" type="text/css" href="css/modal.css">
+
+        <!-- <link rel="stylesheet" type="text/css" href="css/main-envelope.css"> -->
+
+        <!-- <link rel="stylesheet" type="text/css" href="css/heart-loader.css"> -->
     </head>
 
     <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
@@ -41,8 +45,36 @@
         </audio>
         
         <div class="loader"></div>
+        <!-- <div class="new-loader">
+            <div class="bg-heart-loader"></div>
+            <div class="heart-loader"></div>
+        </div> -->
+
+        <!-- <div class="reset">
+            <button id="open">Open</button>
+            <button id="reset">Reset</button>
+        </div> -->
+
+        <!-- <div class="envlope-wrapper">
+            <div id="envelope" class="close">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <div class="words line1"></div>
+                    <div class="words line2"></div>
+                    <div class="words line3"></div>
+                    <div class="words line4"></div>
+                </div>
+                <div class="hearts-envelope">
+                    <div class="heart-envelope a1"></div>
+                    <div class="heart-envelope a2"></div>
+                    <div class="heart-envelope a3"></div>
+                </div>
+            </div>
+        </div> -->
 
         <div class="main">
+
             <!-- Navigation -->
 
             <nav id="navbar" class="navbar navbar-expand-md">
@@ -129,14 +161,14 @@
 
             <section id="header" class="cover" data-parallax="scroll" data-image-src="gallery/header-bg-e.png">
                 <div class="overlay"></div>
-
-                
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center">
                             <div class="display-t">
                                 <div class="display-tc animation">
-                                    <h4>You are cordially invited to</h4>
+                                    <a class="nav-link" href="#couple" style="text-decoration: none;"><button class="nav-link btn-accept-invite">Accept Invitation</button></a>
+
+                                    <h4 style="margin-top: 20px;">You are cordially invited to</h4>
 
                                     <h1 style="text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);">Jason & Mhy</h1>
                                 
@@ -197,7 +229,7 @@
                                 <h3 style="font-family: 'Antic Didone', serif; font-weight: 400; letter-spacing: 2.3px;">JASON LAMBOJON</h3>
 
                                 <p style="font-family: 'Lato', serif; font-weight: 300">
-                                    On this special day, I want to express my gratitude to my partner - my rock, my confidant, my love. Mhy, you bring out the best in me, and I'm honored to call you my partner for life. I promise to love you always.
+                                    You are my everything, and marrying you again is the greatest blessing of my life. I promise to cherish, love, and stand by your side forever, creating a lifetime of happiness filled with warmth, laughter, and endless love.
                                 </p>
                             </div>
                         </div>
@@ -217,7 +249,7 @@
                                 <h3 style="font-family: 'Antic Didone', serif; font-weight: 400; letter-spacing: 2.3px;">MANILYN MADRID</h3>
 
                                 <p style="font-family: 'Lato', serif; font-weight: 300">
-                                    Today, I feel like I'm living in a fairytale - marrying the love of my life and surrounded by all of our family and friends. Every detail of this wedding has been a labor of love, as the carefully selected flowers.
+                                    Meeting you redefined love for me, making life more beautiful and meaningful over the past twelve years. If I could live this life again, I would always choose you, and I can’t wait to share this special moment with you.
                                 </p>
                             </div>
                         </div>
@@ -490,6 +522,9 @@
                         <div class="col-12 text-center heading" style="padding-top: 20px; margin-top: 20px; border-bottom: 1px solid rgb(175, 136, 88)">
                             <img width="310" height="152" sizes="(max-width: 843px) 100vw, 843px" src="gallery/flower-1.png">
                             <h2>Dress and Colors</h2>
+                            <p>
+                                Dress code is <strong><b>strictly formal</b></strong>. We request that our female guests wear long dresses in the shades of either a dusty rose, a lavender gray, or a dusty blue, and for our male guests to wear black suits.
+                            </p>
                         </div>
                         <div class="col-12">
                             <img src="gallery/colortheme3.png" width="100%" height="100%" alt="dresscode">
@@ -577,6 +612,30 @@
                                             <strong>Reception:</strong> Stalla Suites Events Place, 1008 Quezon Ave Diliman, Quezon City<br/>
                                             <strong>Date:</strong> March 15, 2025 (Saturday)<br/>
                                             <strong>Time:</strong> 12:00 PM
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="panel panel-default">
+                                    <div class="panel-heading faq-heading-title"> <!-- faq-animation -->
+                                        <h4 class="panel-title faq-heading-title-icon">
+                                            <i class="fa-solid fa-shirt"></i>
+                                        </h4>
+                                        <h4 class="panel-title faq-heading-title-text">
+                                            <a data-bs-toggle="collapse" href="#collapse63"> What should I wear?</a>
+                                        </h4>
+                                    </div>
+
+                                    <div id="collapse63" class="panel-collapse collapse" data-bs-parent="#events">
+                                        <!-- <div class="panel-place">
+                                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                            <span>40 Lantana, Cubao</span>
+                                        </div> -->
+
+                                        <div class="panel-body">
+                                            <strong>Attire:</strong> <b>Strictly Formal</b><br/>
+                                            <strong>Female:</strong> Long dress in the shades of either a dusty rose, a lavender gray, or a dusty blue <br/>
+                                            <strong>Male:</strong> Black suit partnered with either a bow or a neck tie<br/>
                                         </div>
                                     </div>
                                 </div>
@@ -836,7 +895,7 @@
 
                                         <div class="timeline-body">
                                             <p>
-                                                Remembering the day when we officially became a couple in BGC. It was a day filled with love and happiness.
+                                                Remembering the day when we officially became a couple in BGC. It was a day filled with love and happiness. A simple dinner with lovely flowers in a very cozy place. Definitely one of our favorite moments together.
                                             </p>
                                         </div>
 
@@ -858,7 +917,7 @@
 
                                         <div class="timeline-body">
                                             <p>
-                                                Celebrating our first anniversary in a fancy restaurant in Makati. It was a day filled with love and happiness.
+                                                The first anniversary — an evening to remember! Jason orchestrated a memorable surprise for Mhy, whisking her away to a candlelit dinner at the residence of the National Artist for Architecture, the renowned Mother’s Garden. Unbeknownst to her, the venue, tucked amidst the busiest street in Pasay, seemed an unlikely setting for such a magical experience. Yet, in that intimate hideaway, Jason’s romantic vision unfolded flawlessly, and with it, the fulfillment of a perfect, heartfelt mission.
                                             </p>
                                         </div>
 
@@ -875,12 +934,12 @@
                                         <div class="timeline-heading">
                                             <h3 class="timeline-title">The Civil Wedding</h3>
 
-                                            <span class="date">October 6, 2013</span>
+                                            <span class="date">March 15, 2013</span>
                                         </div>
 
                                         <div class="timeline-body">
                                             <p>
-                                                Our first wedding in Makati. It was a day filled with love and happiness.
+                                                "The only person you are DESTINED to be with is the person you DECIDE to be with". On this day, we decided to take our relationship to the next level by marrying civilly. A vow to continue loving, caring for, and growing old together. Our closest relatives and friends were present to witness, and we were grateful for them all.
                                             </p>
                                         </div>
 
@@ -897,12 +956,12 @@
                                         <div class="timeline-heading">
                                             <h3 class="timeline-title">Spending the Lifetime</h3>
 
-                                            <span class="date">October 6, 2013</span>
+                                            <span class="date">March 16 to Lifetime</span>
                                         </div>
 
                                         <div class="timeline-body">
                                             <p>
-                                                Now that we are together, we will spend our lives through sickness and health, through good times and bad.
+                                                We agreed to spend our lives together, through sickness and in health, good times and bad. We are glad for the times when we relied on one another for strength in the face of adversity. And we are even more excited about what the Lord has planned for us now that we will be married in church.
                                             </p>
                                         </div>
 
@@ -1051,7 +1110,7 @@
 
                         <div class="col-md-3 col-6">
                             <div class="feature-center animate-box animation">
-                                <span class="counter-value js-counter" data-from="0" data-to="4867" data-speed="5000" data-refresh-interval="50">1</span>
+                                <span class="counter-value js-counter" data-from="0" data-to="4910" data-speed="5000" data-refresh-interval="50">1</span>
 
                                 <span class="counter-label">Days together</span>
                             </div>
@@ -1084,16 +1143,14 @@
                                         <div class="item">
                                             <div class="testimony-slide active text-center">
                                                 <figure>
-                                                    <img src="gallery/bf-1.jpeg" alt="user">
+                                                    <img src="gallery/vanica.jpg" alt="user">
                                                 </figure>
 
-                                                <span>Ivan</span>
+                                                <span>Vanica</span>
 
                                                 <blockquote>
                                                     <p>
-                                                        "With warm congratulations to a very special pair. May you always
-                                                    find in each other the love, laughter and happiness that only
-                                                    partners in life share!"
+                                                        "It was inspiring to witness your love story from friendster to facebook era, from being a dating couple to raising a family, and now -  slaying a church wedding in your forties! WOW! Wishing you a blessed life ahead and enjoy your next level journey."
                                                     </p>
                                                 </blockquote>
                                             </div>
@@ -1102,21 +1159,22 @@
                                         <div class="item">
                                             <div class="testimony-slide active text-center">
                                                 <figure>
-                                                    <img src="gallery/vanica.jpg" alt="user">
+                                                    <img src="gallery/bf-1.jpeg" alt="user">
                                                 </figure>
 
-                                                <span>Vanica</span>
+                                                <span>Ivan</span>
 
                                                 <blockquote>
                                                     <p>
-                                                        "True love stories never end! Happy wedding day and may there be many
-                                                    more chapters in the wonderful story of your love for one another."
+                                                        "I dearly wish you the happiest marriage in the world. A never ending love for both of you, unconditionally choosing to be together through tough times and happy times. 
+                                                        Please continue to be the inspiration of younger couples and be the role model of your kids. I will always be here for you, any day, any time, including Sundays and Holidays!
+                                                        ’Wag lang math’ tutal, Engr naman kayo pareho. Calculado nyo na yan."
                                                     </p>
                                                 </blockquote>
                                             </div>
                                         </div>
 
-                                        <div class="item">
+                                        <!-- <div class="item">
                                             <div class="testimony-slide active text-center">
                                                 <figure>
                                                     <img src="gallery/paolo.jpg" alt="user">
@@ -1129,6 +1187,38 @@
                                                         "A wedding wish for two special person: love is best when shared by
                                                     two. You know that together you are stronger, together you are one.
                                                     Have a wonderful married life!"
+                                                    </p>
+                                                </blockquote>
+                                            </div>
+                                        </div> -->
+
+                                        <div class="item">
+                                            <div class="testimony-slide active text-center">
+                                                <figure>
+                                                    <img src="gallery/bf-monica.png" alt="user">
+                                                </figure>
+
+                                                <span>Yandee</span>
+
+                                                <blockquote>
+                                                    <p>
+                                                        "What God had joined together, let no man separate. I’m blessed to see you live this truth and embody your relationship after God’s heart. I know you have been wanting a church wedding, and now, indeed it is in God’s perfect timing! Love you both!"
+                                                    </p>
+                                                </blockquote>
+                                            </div>
+                                        </div>
+
+                                        <div class="item">
+                                            <div class="testimony-slide active text-center">
+                                                <figure>
+                                                    <img src="gallery/bf-dino-angie.png" alt="user">
+                                                </figure>
+
+                                                <span>Dino & Angie</span>
+
+                                                <blockquote>
+                                                    <p>
+                                                        "Witnessing your love story has been truly inspiring. Your relationship, firmly rooted in faith, is a testament to the beauty of a God-centered marriage. Not only are you wonderful partners to each other, but you are also incredible parents, raising such smart and kind-hearted children. May your journey together be filled with endless love, laughter, and God’s abundant blessings. Wishing you a lifetime of happiness!"
                                                     </p>
                                                 </blockquote>
                                             </div>
@@ -1353,6 +1443,8 @@
         <script src="js/libs/jquery.waypoints.min.js"></script>
 
         <script src="js/main.js"></script>
+
+        <!-- <script src="js/main-envelope.js"></script> -->
 
         <script>
             document.addEventListener("click", function() {

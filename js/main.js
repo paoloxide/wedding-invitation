@@ -3,9 +3,30 @@
 
     $(window).on('load', function () {
         $('.loader').delay(600).fadeOut('slow');
+        // $('.new-loader').delay(600).fadeOut('slow');
+
+        // setTimeout(function () {
+        //     $('.cover .display-tc').addClass('fade-in-up');
+        // }, 800);
+
+        // $('.main').hide();
+        // $('#header').hide();
+        // $('.parallax-mirror').hide();
+
+        // $('.envlope-wrapper').delay(600).fadeIn('slow');
+
         setTimeout(function () {
             $('.cover .display-tc').addClass('fade-in-up');
         }, 800);
+
+        // $('.new-loader').on('click', function () {
+        //     $(this).hide();
+        // $('.main').show();
+        // $('#header').show();
+        // $('.parallax-mirror').show();
+
+        // });
+
     });
 
     document.addEventListener('DOMContentLoaded', function () {
