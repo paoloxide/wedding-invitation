@@ -2,8 +2,11 @@
     'use strict';
 
     $(window).on('load', function () {
-        $('.loader').delay(600).fadeOut('slow');
         // $('.new-loader').delay(600).fadeOut('slow');
+
+        $('.btn-accept').on('click', function () {
+            $('.loader').delay(1500).fadeOut('slow');
+        });
 
         // setTimeout(function () {
         //     $('.cover .display-tc').addClass('fade-in-up');

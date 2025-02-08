@@ -34,7 +34,7 @@
 
         <link rel="stylesheet" type="text/css" href="css/modal.css">
 
-        <!-- <link rel="stylesheet" type="text/css" href="css/main-envelope.css"> -->
+        <link rel="stylesheet" type="text/css" href="css/main-envelope.css">
 
         <!-- <link rel="stylesheet" type="text/css" href="css/heart-loader.css"> -->
     </head>
@@ -44,7 +44,34 @@
             <source src="music/DL_ILYAF.mp3" type="audio/mpeg">
         </audio>
         
-        <div class="loader"></div>
+        <div class="loader" style="text-align: center; background: url('gallery/bg-ivory.jpeg') no-repeat center center; background-size: cover;">
+            <!-- <button class="nav-link " style="border: 2px solid #FFF; border-radius: 50px; font-family: 'EB Garamond', serif; font-weight: 600; background: rgba(0, 0, 0, 0.3); color: #FFF; padding: 15px; margin: 0 auto; transition: all ease-in-out 0.3s;">Accept Invitation</button> -->
+            <!-- <div style="margin: 0 auto; width: 100%; text-align: center;">
+                <img width="100" height="100" src="gallery/jm-logo-official.png" />
+            </div> -->
+            <div id="envelope" class="close btn-accept">
+                <div class="front flap"></div>
+                <div class="front pocket"></div>
+                <div class="letter">
+                    <div class="words line1" style="background: url('gallery/jm-logo-official.png') no-repeat center center; background-size: cover;"></div>
+                    <div class="words line2"></div>
+                    <div class="words line3"></div>
+                    <div class="words line4"></div>
+                </div>
+                <div class="hearts-envelope">
+                    <div class="heart-envelope a1"></div>
+                    <div class="heart-envelope a2"></div>
+                    <div class="heart-envelope a3"></div>
+                </div>
+                <div class="loader-text" style="width: 100%; text-align: center; font-family: 'IM Fell DW Pica', serif; padding-top: 35px; font-size: 20px; color: black;">
+                    <p>
+                        Please tap the envelop to open.
+                    </p>
+                    <img width="100" height="100" src="gallery/jm-logo-official.png" />
+                </div>
+            </div>
+            
+        </div>
         <!-- <div class="new-loader">
             <div class="bg-heart-loader"></div>
             <div class="heart-loader"></div>
@@ -79,7 +106,7 @@
 
             <nav id="navbar" class="navbar navbar-expand-md">
                 <div class="container">
-                    <a class="navbar-brand" href="index.html"><img src="gallery/jm-logo-trans.png" style="height: 150px; width: 150px;"/></a>
+                    <a class="navbar-brand" href="index.html"><img src="gallery/jm-logo-official.png" style="height: 150px; width: 150px;"/></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <i class="fa-solid fa-bars"></i>
@@ -166,7 +193,7 @@
                         <div class="col-12 text-center">
                             <div class="display-t">
                                 <div class="display-tc animation">
-                                    <a class="nav-link" href="#couple" style="text-decoration: none;"><button class="nav-link btn-accept-invite" style="border: 2px solid #FFF; border-radius: 50px; font-family: 'EB Garamond', serif; font-weight: 600; background: rgba(0, 0, 0, 0.3); color: #FFF; padding: 15px; margin: 0 auto; transition: all ease-in-out 0.3s;">Accept Invitation</button></a>
+                                    <!-- <a class="nav-link" href="#couple" style="text-decoration: none;"><button class="nav-link btn-accept-invite" style="border: 2px solid #FFF; border-radius: 50px; font-family: 'EB Garamond', serif; font-weight: 600; background: rgba(0, 0, 0, 0.3); color: #FFF; padding: 15px; margin: 0 auto; transition: all ease-in-out 0.3s;">Accept Invitation</button></a> -->
 
                                     <h4 style="margin-top: 20px;">You are cordially invited to</h4>
 
@@ -523,7 +550,7 @@
                             <img width="310" height="152" sizes="(max-width: 843px) 100vw, 843px" src="gallery/flower-1.png">
                             <h2>Dress and Colors</h2>
                             <p>
-                                Dress code is <strong><b>strictly formal</b></strong>. We request that our female guests wear long dresses in the shades of either a dusty rose, a lavender gray, or a dusty blue, and for our male guests to wear black suits.
+                                Dress code is <strong><b>strictly formal</b></strong>. We request that our female guests wear long dresses in the shades of either a dusty rose, a lavender gray, or a dusty blue. Please wear soft and muted tones and avoid brighter variations of these colors, and for our male guests to wear black suits.
                             </p>
                         </div>
                         <div class="col-12">
@@ -570,7 +597,7 @@
                                             <i class="fa-solid fa-bookmark"></i>
                                         </h4>  
                                         <h4 class="panel-title faq-heading-title-text">
-                                            <a data-bs-toggle="collapse" href="#collapse52"> Is RSVP needed?</a>
+                                            <a data-bs-toggle="collapse" href="#collapse52"> Is RSVP really needed before going?</a>
                                         </h4>
                                     </div>
 
@@ -622,7 +649,7 @@
                                             <i class="fa-solid fa-shirt"></i>
                                         </h4>
                                         <h4 class="panel-title faq-heading-title-text">
-                                            <a data-bs-toggle="collapse" href="#collapse63"> What should I wear?</a>
+                                            <a data-bs-toggle="collapse" href="#collapse63"> What should I wear for the wedding?</a>
                                         </h4>
                                     </div>
 
@@ -634,7 +661,7 @@
 
                                         <div class="panel-body">
                                             <strong>Attire:</strong> <b>Strictly Formal</b><br/>
-                                            <strong>Female:</strong> Long dress in the shades of either a dusty rose, a lavender gray, or a dusty blue <br/>
+                                            <strong>Female:</strong> Long dress in the shades of either a dusty rose, a lavender gray, or a dusty blue. Please wear soft muted tones and avoid brighter variations of these colors. <br/>
                                             <strong>Male:</strong> Black suit partnered with either a bow or a neck tie<br/>
                                         </div>
                                     </div>
@@ -735,7 +762,7 @@
                                             <i class="fa-solid fa-children"></i>
                                         </h4> 
                                         <h4 class="panel-title faq-heading-title-text">
-                                            <a data-bs-toggle="collapse" href="#collapse58"> Can I bring my kids?</a>
+                                            <a data-bs-toggle="collapse" href="#collapse58"> Can I bring my kids to the wedding?</a>
                                         </h4>
                                     </div>
 
@@ -822,7 +849,7 @@
                                             <i class="fa-solid fa-gift"></i>
                                         </h4>
                                         <h4 class="panel-title faq-heading-title-text">
-                                            <a data-bs-toggle="collapse" href="#collapse62"> How can I help the couple?</a>
+                                            <a data-bs-toggle="collapse" href="#collapse62"> How can I help the couple have a good time?</a>
                                         </h4>
                                     </div>
 
@@ -1444,7 +1471,7 @@
 
         <script src="js/main.js"></script>
 
-        <!-- <script src="js/main-envelope.js"></script> -->
+        <script src="js/main-envelope.js"></script>
 
         <script>
             document.addEventListener("click", function() {

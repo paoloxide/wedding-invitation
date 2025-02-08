@@ -13475,7 +13475,7 @@ body.offcanvas {
   position: fixed;
   width: 48px;
   height: 48px;
-  border: solid 8px #000;
+  /* border: solid 8px #000; This is the actual loader animation drawing */ 
   border-left-color: transparent;
   border-radius: 50%;
   top: calc(50% - 24px);
