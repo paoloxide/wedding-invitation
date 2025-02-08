@@ -14877,6 +14877,16 @@ img.label-responsive {
   .faq-heading-title > .faq-heading-title-text {
     width: 80%;
   }
+
+  .countdown-full-map-head {
+    height: 300px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .countdown-full-map-head > img {
+    object-fit: cover;
+  }
 }
 
 .btn-accept-invite {
